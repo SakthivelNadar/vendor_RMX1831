@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/bin/vtservice:system/bin/vtservice \
     vendor/realme/RMX1831/proprietary/etc/init/init.vtservice.rc:system/etc/init/init.vtservice.rc \
     vendor/realme/RMX1831/proprietary/etc/permissions/privapp-permissions-mediatek.xml:system/etc/permissions/privapp-permissions-mediatek.xml \
+    vendor/realme/RMX1831/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/realme/RMX1831/proprietary/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar \
     vendor/realme/RMX1831/proprietary/framework/mediatek-ims-legacy.jar:system/framework/mediatek-ims-legacy.jar \
     vendor/realme/RMX1831/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
