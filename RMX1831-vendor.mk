@@ -54,7 +54,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     vendor/realme/RMX1831/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/realme/RMX1831/proprietary/lib64/libvcodec_capenc.so:system/lib64/libvcodec_capenc.so \
-    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/realme/RMX1831/proprietary/lib/libmtkperf_client.so:system/lib/libmtkperf_client.so \
+    vendor/realme/RMX1831/proprietary/lib64/libmtkperf_client.so:system/lib64/libmtkperf_client.so 
 
 PRODUCT_PACKAGES += \
     ImsService \
