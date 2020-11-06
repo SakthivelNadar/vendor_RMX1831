@@ -66,7 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/lib/vendor.mediatek.hardware.mms@1.0.so:system/lib/vendor.mediatek.hardware.mms@1.0.so \
     vendor/realme/RMX1831/proprietary/lib64/libclang_rt.ubsan_standalone-aarch64-android.so:system/lib64/libclang_rt.ubsan_standalone-aarch64-android.so \
     vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.mms@1.0.so:system/lib64/vendor.mediatek.hardware.mms@1.0.so \
-    vendor/realme/RMX1831/proprietary/lib64/vndk-28/libclang_rt.ubsan_standalone-aarch64-android.so:system/lib64/vndk-28/libclang_rt.ubsan_standalone-aarch64-android.so 
+    vendor/realme/RMX1831/proprietary/lib64/vndk-28/libclang_rt.ubsan_standalone-aarch64-android.so:system/lib64/vndk-28/libclang_rt.ubsan_standalone-aarch64-android.so \
+    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.mms@1.1.so:system/lib64/vendor.mediatek.hardware.mms@1.1.so \
+    vendor/realme/RMX1831/proprietary/lib/vendor.mediatek.hardware.mms@1.1.so:system/lib64/vendor.mediatek.hardware.mms@1.1.so 
 
 PRODUCT_PACKAGES += \
     ImsService \
