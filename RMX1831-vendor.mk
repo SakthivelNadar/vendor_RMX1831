@@ -68,7 +68,28 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.mms@1.0.so:system/lib64/vendor.mediatek.hardware.mms@1.0.so \
     vendor/realme/RMX1831/proprietary/lib64/vndk-28/libclang_rt.ubsan_standalone-aarch64-android.so:system/lib64/vndk-28/libclang_rt.ubsan_standalone-aarch64-android.so \
     vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.mms@1.1.so:system/lib64/vendor.mediatek.hardware.mms@1.1.so \
-    vendor/realme/RMX1831/proprietary/lib/vendor.mediatek.hardware.mms@1.1.so:system/lib64/vendor.mediatek.hardware.mms@1.1.so 
+    vendor/realme/RMX1831/proprietary/lib/vendor.mediatek.hardware.mms@1.1.so:system/lib64/vendor.mediatek.hardware.mms@1.1.so \
+    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.mms@1.2.so:system/lib64/vendor.mediatek.hardware.mms@1.2.so \
+    vendor/realme/RMX1831/proprietary/lib/vendor.mediatek.hardware.mms@1.2.so:system/lib64/vendor.mediatek.hardware.mms@1.2.so \
+    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.mms@1.3.so:system/lib64/vendor.mediatek.hardware.mms@1.3.so \
+    vendor/realme/RMX1831/proprietary/lib/vendor.mediatek.hardware.mms@1.3.so:system/lib64/vendor.mediatek.hardware.mms@1.3.so \
+    vendor/realme/RMX1831/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.3-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.3-service \
+    vendor/realme/RMX1831/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.3 \
+    vendor/realme/RMX1831/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.1-service \
+    vendor/realme/RMX1831/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.1 \
+    vendor/realme/RMX1831/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.3-impl.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.1-impl.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.3.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.3 \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.1 \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.0.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.1.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.2.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.3.so 
+
 
 PRODUCT_PACKAGES += \
     ImsService \
